@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "44796B1C4CAAE8310A1752DC4E639E2B",
+  "keywordClasses": [
+    {
+      "name": "storePackage.utils",
+      "keywordMethods": [
+        {
+          "name": "openBrowser",
+          "parameters": []
+        },
+        {
+          "name": "closeBrowser",
+          "parameters": []
+        },
+        {
+          "name": "navigateToURL",
+          "parameters": []
+        },
+        {
+          "name": "clickMyAccountIcon",
+          "parameters": []
+        },
+        {
+          "name": "clickAddToCartButton",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}
