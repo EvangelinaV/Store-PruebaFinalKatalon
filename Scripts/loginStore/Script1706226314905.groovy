@@ -17,11 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'storePackage.utils.openBrowser'()
+WebUI.openBrowser('')
 
-CustomKeywords.'storePackage.utils.navigateToURL'()
+WebUI.navigateToUrl(GlobalVariable.BaseURL)
 
-CustomKeywords.'storePackage.utils.clickMyAccountIcon'()
+WebUI.waitForElementVisible(findTestObject('Page_Your Store/a_My Account'), 5)
+
+WebUI.click(findTestObject('Page_Your Store/a_My Account'))
 
 WebUI.click(findTestObject('Object Repository/Page_Your Store/a_Login'))
 

@@ -30,7 +30,7 @@
          <testDataLinkId>5b993dfc-c070-4142-a5d4-d6db95269842</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>article</value>
-         <variableId>0c8c4f01-42ea-4f60-83c5-ce5b328b8674</variableId>
+         <variableId>a9dbe66e-c4a9-439d-9fb8-632ca76d9732</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

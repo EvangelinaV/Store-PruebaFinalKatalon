@@ -42,7 +42,7 @@ def setUp() {
  */
 @TearDown(skipped = false) // Please change skipped to be false to activate this method.
 def tearDown() {
-	CustomKeywords.'storePackage.utils.closeBrowser'();
+	WebUI.closeBrowser();
 }
 
 /**

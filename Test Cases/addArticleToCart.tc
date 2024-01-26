@@ -9,12 +9,12 @@
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>0c8c4f01-42ea-4f60-83c5-ce5b328b8674</variableId>
+      <variableId>a9dbe66e-c4a9-439d-9fb8-632ca76d9732</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>''</defaultValue>
+      <defaultValue>findTestData('ArticlesForSearch')</defaultValue>
       <description></description>
-      <id>0c8c4f01-42ea-4f60-83c5-ce5b328b8674</id>
+      <id>a9dbe66e-c4a9-439d-9fb8-632ca76d9732</id>
       <masked>false</masked>
       <name>article</name>
    </variable>

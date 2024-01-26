@@ -1,21 +1,9 @@
 {
-  "keywordFileContentHash": "44796B1C4CAAE8310A1752DC4E639E2B",
+  "keywordFileContentHash": "C5C55D0291E6E4C01A2B9F2AA03AA9FE",
   "keywordClasses": [
     {
       "name": "storePackage.utils",
       "keywordMethods": [
-        {
-          "name": "openBrowser",
-          "parameters": []
-        },
-        {
-          "name": "closeBrowser",
-          "parameters": []
-        },
-        {
-          "name": "navigateToURL",
-          "parameters": []
-        },
         {
           "name": "clickMyAccountIcon",
           "parameters": []

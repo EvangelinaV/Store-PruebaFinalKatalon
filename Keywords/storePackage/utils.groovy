@@ -22,31 +22,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable
 
 public class utils {
-	
-	@Keyword()
-	def openBrowser() {
-		WebUI.openBrowser('');
-	}
-	
-	@Keyword()
-	def closeBrowser() {
-		WebUI.closeBrowser();
-	}
-	
-	@Keyword()
-	def navigateToURL() {
-		WebUI.navigateToUrl(GlobalVariable.BaseURL)
-	}
-	
+
+
 	@Keyword()
 	def clickMyAccountIcon() {
 		WebUI.click(findTestObject('Object Repository/Page_Your Store/a_My Account'));
 	}
-	
-	
+
+
 	@Keyword()
 	def clickAddToCartButton() {
 		WebUI.click(findTestObject('Object Repository/Page_Your Store/i_fa fa-shopping-cart'));
 	}
-	
 }
