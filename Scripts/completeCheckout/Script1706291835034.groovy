@@ -17,16 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Your Store/a_Register'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register Account/div_Account      If you already have an acc_b8fddc'), 
-    0)
-
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_firstname'))
-
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_lastname'))
-
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_agree'))
-
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_btn btn-primary'))
-

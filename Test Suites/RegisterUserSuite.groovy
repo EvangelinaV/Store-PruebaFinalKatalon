@@ -15,6 +15,7 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+import com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
 
 import internal.GlobalVariable as GlobalVariable
@@ -31,17 +32,19 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 /**
  * Setup test suite environment.
  */
-@SetUp(skipped = true) // Please change skipped to be false to activate this method.
+@SetUp(skipped = false) // Please change skipped to be false to activate this method.
 def setUp() {
-	// Put your code here.
+	WebUI.openBrowser();
+	WebUI.navigateToUrl(GlobalVariable.BaseURL);
+	CustomKeywords.'storePackage.utils.clickMyAccountIcon'();
 }
 
 /**
  * Clean test suites environment.
  */
-@TearDown(skipped = true) // Please change skipped to be false to activate this method.
+@TearDown(skipped = false) // Please change skipped to be false to activate this method.
 def tearDown() {
-	// Put your code here.
+	WebUI.closeBrowser();
 }
 
 /**
