@@ -22,11 +22,19 @@ WebUI.click(findTestObject('Object Repository/Page_Your Store/a_Register'))
 WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register Account/div_Account      If you already have an acc_b8fddc'), 
     0)
 
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_firstname'))
+WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_firstname'), firstName)
 
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_lastname'))
+WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_lastname'), lastName)
 
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_agree'))
+WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_email'), emailRegistry)
 
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_btn btn-primary'))
+WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_telephone'), telephone)
+
+WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_password'), newPassword)
+
+WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_confirm'), confirmPassword)
+
+WebUI.click(findTestObject('Object Repository/Page_Register Account/input_agree'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Register Account/input_btn btn-primary'), FailureHandling.STOP_ON_FAILURE)
 
