@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Your Store</name>
+   <tag></tag>
+   <elementGuidId>1c4454c5-d8b8-47ba-adb3-a338ca8e5041</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='logo']/h1/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h1 > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>7c751a80-d1bd-4363-8412-0109c58862e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://opencart.abstracta.us:80/index.php?route=common/home</value>
+      <webElementGuid>77b5803c-81a9-4730-b151-1607a5265937</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Your Store</value>
+      <webElementGuid>3bf126b6-b1ae-4ed4-8d67-bdacecbfb365</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;logo&quot;)/h1[1]/a[1]</value>
+      <webElementGuid>644b2369-a758-4de1-8de2-d5b369e6969d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='logo']/h1/a</value>
+      <webElementGuid>b5740fe5-7dd7-4bb3-944b-e8b88ad6b48d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Your Store')]</value>
+      <webElementGuid>23925178-5710-4340-9f1b-496ef723785c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://opencart.abstracta.us:80/index.php?route=common/home']</value>
+      <webElementGuid>9b5455e0-5322-4219-ab61-d1bd0a26a447</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h1/a</value>
+      <webElementGuid>eec88404-5a91-473c-a9e1-d449c703c69a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://opencart.abstracta.us:80/index.php?route=common/home' and (text() = 'Your Store' or . = 'Your Store')]</value>
+      <webElementGuid>19375deb-eb6d-437b-bd52-3a30932ba446</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

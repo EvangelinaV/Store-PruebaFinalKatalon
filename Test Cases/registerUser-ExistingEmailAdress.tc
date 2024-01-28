@@ -1,86 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>registerUser</name>
+   <name>registerUser-ExistingEmailAdress</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7857863d-daa8-4680-bd2e-02bedad3db49</testCaseGuid>
+   <testCaseGuid>d2162834-0787-43b8-a19e-6f6e2425c180</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c23ab719-61c0-497c-97e4-1cff6e5e1b5c</variableId>
+      <variableId>b1e68709-58c5-4fbb-899f-1fd62707f02f</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>04c12ec3-4498-4781-860a-e4b6156f257e</variableId>
+      <variableId>bbdb0030-9496-47a0-a685-594a1b10dbaf</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>fb555d0e-e073-4ee3-812b-5bb3eae9afb2</variableId>
+      <variableId>9134819d-aaa0-423b-bc5f-71dd7bfdb8d9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>c9c8f071-7602-4e78-b921-68aad6df5a7f</variableId>
+      <variableId>99a7b0bc-4b64-4d32-9e7e-e165118beab9</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>401d1fd7-5516-424b-9d51-5652f5444825</variableId>
+      <variableId>11649ecb-ea68-4043-be17-30476ebaa67b</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>d93b9e99-04cc-499e-91d2-31fb3a147a3f</variableId>
+      <variableId>01816f8d-11df-4992-b541-9ef96d239447</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>c23ab719-61c0-497c-97e4-1cff6e5e1b5c</id>
+      <id>b1e68709-58c5-4fbb-899f-1fd62707f02f</id>
       <masked>false</masked>
-      <name>firstName</name>
+      <name>name</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>04c12ec3-4498-4781-860a-e4b6156f257e</id>
+      <id>bbdb0030-9496-47a0-a685-594a1b10dbaf</id>
       <masked>false</masked>
       <name>lastName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>fb555d0e-e073-4ee3-812b-5bb3eae9afb2</id>
+      <id>9134819d-aaa0-423b-bc5f-71dd7bfdb8d9</id>
       <masked>false</masked>
-      <name>emailRegistry</name>
-   </variable>
-   <variable>
-      <defaultValue>0</defaultValue>
-      <description></description>
-      <id>c9c8f071-7602-4e78-b921-68aad6df5a7f</id>
-      <masked>false</masked>
-      <name>telephone</name>
+      <name>email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>401d1fd7-5516-424b-9d51-5652f5444825</id>
+      <id>99a7b0bc-4b64-4d32-9e7e-e165118beab9</id>
       <masked>false</masked>
-      <name>newPassword</name>
+      <name>telephoneNumber</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>d93b9e99-04cc-499e-91d2-31fb3a147a3f</id>
-      <masked>false</masked>
+      <id>11649ecb-ea68-4043-be17-30476ebaa67b</id>
+      <masked>true</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>01816f8d-11df-4992-b541-9ef96d239447</id>
+      <masked>true</masked>
       <name>confirmPassword</name>
    </variable>
 </TestCaseEntity>

@@ -3,6 +3,7 @@ import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
 import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
 import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementInViewport as verifyElementInViewport
 import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
@@ -17,24 +18,5 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_Your Store/a_Register'))
-
-WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register Account/div_Account      If you already have an acc_b8fddc'), 
-    0)
-
-WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_firstname'), firstName)
-
-WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_lastname'), lastName)
-
-WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_email'), emailRegistry)
-
-WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_telephone'), telephone)
-
-WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_password'), newPassword)
-
-WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_confirm'), confirmPassword)
-
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_agree'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.click(findTestObject('Object Repository/Page_Register Account/input_btn btn-primary'), FailureHandling.STOP_ON_FAILURE)
+CustomKeywords.'storePackage.utils.registerUserBasicSteps'(name, lastName, email, telephoneNumber, password, confirmPassword)
 

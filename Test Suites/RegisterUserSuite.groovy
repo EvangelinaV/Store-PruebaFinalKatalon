@@ -32,35 +32,35 @@ import com.kms.katalon.core.annotation.TearDownTestCase
 /**
  * Setup test suite environment.
  */
-@SetUp(skipped = false) // Please change skipped to be false to activate this method.
+@SetUp(skipped = true) // Please change skipped to be false to activate this method.
 def setUp() {
-	WebUI.openBrowser();
-	WebUI.navigateToUrl(GlobalVariable.BaseURL);
-	CustomKeywords.'storePackage.utils.clickMyAccountIcon'();
+	// Put your code here.
 }
 
 /**
  * Clean test suites environment.
  */
-@TearDown(skipped = false) // Please change skipped to be false to activate this method.
+@TearDown(skipped = true) // Please change skipped to be false to activate this method.
 def tearDown() {
-	WebUI.closeBrowser();
+	// Put your code here.
 }
 
 /**
  * Run before each test case starts.
  */
-@SetupTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@SetupTestCase(skipped = false) // Please change skipped to be false to activate this method.
 def setupTestCase() {
-	// Put your code here.
+	WebUI.openBrowser('');
+	WebUI.navigateToUrl(GlobalVariable.BaseURL);
+	CustomKeywords.'storePackage.utils.clickMyAccountIcon'();
 }
 
 /**
  * Run after each test case ends.
  */
-@TearDownTestCase(skipped = true) // Please change skipped to be false to activate this method.
+@TearDownTestCase(skipped = false) // Please change skipped to be false to activate this method.
 def tearDownTestCase() {
-	// Put your code here.
+	WebUI.closeBrowser();
 }
 
 /**

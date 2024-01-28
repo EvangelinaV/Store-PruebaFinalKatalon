@@ -9,35 +9,37 @@
    <dataFileGUID>671b8306-ac6e-4574-a10b-89aaebe21335</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
+   <data>Eva Lazzo hyyy%40test.com 789456123 789456123 789456123</data>
+   <data>Maria Vera lazzzoo%40test.com 789456789 123456 123456</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>firstName</name>
-      <size>0</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>lastName</name>
-      <size>0</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
       <name>emailRegistry</name>
-      <size>0</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>telephone</name>
-      <size>0</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
       <name>newPassword</name>
-      <size>0</size>
+      <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
       <name>confirmPassword</name>
-      <size>0</size>
+      <size>2</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
