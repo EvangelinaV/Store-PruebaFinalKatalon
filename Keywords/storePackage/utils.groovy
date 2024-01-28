@@ -41,29 +41,29 @@ public class utils {
 	def emergentWindowForResults(String result) {
 		JOptionPane.showMessageDialog(null, result);
 	}
-	
-	@Keyword() 
+
+	@Keyword()
 	def registerUserBasicSteps(String name, String lastName, String email, String tel, String password, String repeatPassword) {
-		
+
 		WebUI.click(findTestObject('Object Repository/Page_Your Store/a_Register'))
-		
+
 		WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register Account/div_Account      If you already have an acc_b8fddc'),
-			5)
-		
+				5)
+
 		WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_firstname'), name)
-		
+
 		WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_lastname'), lastName)
-		
+
 		WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_email'), email)
-		
+
 		WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_telephone'), tel)
-		
+
 		WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_password'), password)
-		
+
 		WebUI.setText(findTestObject('Object Repository/Page_Register Account/input_confirm'), repeatPassword)
-		
+
 		WebUI.click(findTestObject('Object Repository/Page_Register Account/input_agree'), FailureHandling.STOP_ON_FAILURE)
-		
+
 		WebUI.click(findTestObject('Object Repository/Page_Register Account/input_btn btn-primary'), FailureHandling.STOP_ON_FAILURE)
 	}
 }

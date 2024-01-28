@@ -17,16 +17,35 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-CustomKeywords.'storePackage.utils.registerUserBasicSteps'(name, lastName, email, telephoneNumber, password, confirmPassword)
+CustomKeywords.'storePackage.utils.registerUserBasicSteps'(name, lastName, email, telephone, password, repeatPassword)
 
-WebUI.verifyElementVisible(findTestObject('Page_Register Account/div_Warning E-Mail Address is already registered'))
+switch ('') {
+    case name:
+        WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register Account/div_First Name must be between 1 and 32 characters'), 
+            5)
 
-WebUI.focus(findTestObject('Page_Register Account/input_email'))
+        break
+    case lastName:
+        WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register Account/div_Last Name must be between 1 and 32 characters'), 
+            5)
 
-switch (true) {
-    default: CustomKeywords.'storePackage.utils.emergentWindowForResults'('Test result: Expected. The user email already exists. Alert is shown.');
+        break
+    case email:
+        WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register Account/div_E-Mail Address does not appear to be valid'), 
+            5)
+
+        break
+    case telephone:
+        WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register Account/div_Telephone must be between 3 and 32 characters'), 
+            5)
+
+        break
+    case password:
+        WebUI.verifyElementPresent(findTestObject('Object Repository/Page_Register Account/div_Password must be between 4 and 20 characters'), 
+            5)
+
         break
 }
 
-WebUI.takeFullPageScreenshot()
+WebUI.focus(findTestObject('Page_Register Account/input_firstname'))
 

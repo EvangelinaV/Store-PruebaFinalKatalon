@@ -6,11 +6,13 @@
       "keywordMethods": [
         {
           "name": "clickMyAccountIcon",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "clickAddToCartButton",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "emergentWindowForResults",
@@ -28,7 +30,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "registerUserBasicSteps",
@@ -111,10 +114,11 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }

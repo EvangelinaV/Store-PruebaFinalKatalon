@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>RegisterNewUsers</name>
+   <name>RegisterUserExistingEmails</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>671b8306-ac6e-4574-a10b-89aaebe21335</dataFileGUID>
+   <dataFileGUID>26fce3eb-53bd-42d8-a3ef-84dddd9daab1</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Eva Lazzo everatest123%40test.com 789456123 789456123 789456123</data>
-   <data>Maria Vera evl1994%40test.com 789456789 123456 123456</data>
+   <data>test lastname test%2Bkatalon%40test.com 6554651351 456456 456456</data>
+   <data>test1 test2 katalon%2Bcalltestcase%40test.com 123123777 1231237 1231237</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>firstName</name>
+      <name>name</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
@@ -23,17 +23,17 @@
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
-      <name>emailRegistry</name>
+      <name>email</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
-      <name>telephone</name>
+      <name>telephoneNumber</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
-      <name>newPassword</name>
+      <name>password</name>
       <size>2</size>
    </internalDataColumns>
    <internalDataColumns>

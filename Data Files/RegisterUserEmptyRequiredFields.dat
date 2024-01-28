@@ -1,45 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>RegisterNewUsers</name>
+   <name>RegisterUserEmptyRequiredFields</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>671b8306-ac6e-4574-a10b-89aaebe21335</dataFileGUID>
+   <dataFileGUID>a30df309-221b-48d1-892b-71af882aef0b</dataFileGUID>
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
-   <data>Eva Lazzo everatest123%40test.com 789456123 789456123 789456123</data>
-   <data>Maria Vera evl1994%40test.com 789456789 123456 123456</data>
+   <data>test1 null testtest123%40test1.com 156151561 123456 123456</data>
+   <data>test2 test2 null 845185465 789789 789789</data>
+   <data>test3 test3 333test333%40test.com 5558125482 null 852852</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
-      <name>firstName</name>
-      <size>2</size>
+      <name>name</name>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>1</columnIndex>
       <name>lastName</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>2</columnIndex>
-      <name>emailRegistry</name>
-      <size>2</size>
+      <name>email</name>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>3</columnIndex>
       <name>telephone</name>
-      <size>2</size>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>4</columnIndex>
-      <name>newPassword</name>
-      <size>2</size>
+      <name>password</name>
+      <size>3</size>
    </internalDataColumns>
    <internalDataColumns>
       <columnIndex>5</columnIndex>
-      <name>confirmPassword</name>
-      <size>2</size>
+      <name>repeatPassword</name>
+      <size>3</size>
    </internalDataColumns>
    <isInternalPath>false</isInternalPath>
    <query></query>
