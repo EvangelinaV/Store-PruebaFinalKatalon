@@ -1,6 +1,10 @@
 package storePackage
 
 import javax.swing.JOptionPane
+import java.util.regex.Pattern
+import java.util.regex.Matcher
+
+import groovy.test.JavadocAssertionTestBuilder
 
 import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
 import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
@@ -66,4 +70,16 @@ public class utils {
 
 		WebUI.click(findTestObject('Object Repository/Page_Register Account/input_btn btn-primary'), FailureHandling.STOP_ON_FAILURE)
 	}
+	
+	@Keyword()
+	def emailAddressContainsSpecialCharacters(String email) {
+		
+		Pattern specials = Pattern.compile('[!@#$%&*()_+=|<>?{}\\[\\]~-]');
+		
+		Matcher special = specials.matcher(email);
+		
+		return special.find();		
+	}
+	
+	
 }
