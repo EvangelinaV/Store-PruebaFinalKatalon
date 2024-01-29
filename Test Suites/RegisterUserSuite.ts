@@ -14,7 +14,7 @@
    <testCaseLink>
       <guid>7ec2c732-4595-45bf-ab40-75a6c0e4c5dc</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/registerUser-SuccessfulRegistry</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -66,7 +66,7 @@
    <testCaseLink>
       <guid>9db1d538-847d-4c7b-bd9c-8cfa26d622a0</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/registerUser-ExistingEmailAdress</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
@@ -118,7 +118,7 @@
    <testCaseLink>
       <guid>b783728b-93e6-4f6c-9a5a-9e1202671a50</guid>
       <isReuseDriver>false</isReuseDriver>
-      <isRun>false</isRun>
+      <isRun>true</isRun>
       <testCaseId>Test Cases/registerUser-EmptyRequiredFields</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>

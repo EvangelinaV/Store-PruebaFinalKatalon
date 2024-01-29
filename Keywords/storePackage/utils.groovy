@@ -70,16 +70,23 @@ public class utils {
 
 		WebUI.click(findTestObject('Object Repository/Page_Register Account/input_btn btn-primary'), FailureHandling.STOP_ON_FAILURE)
 	}
-	
+
 	@Keyword()
 	def emailAddressContainsSpecialCharacters(String email) {
-		
+
 		Pattern specials = Pattern.compile('[!@#$%&*()_+=|<>?{}\\[\\]~-]');
-		
+
 		Matcher special = specials.matcher(email);
-		
-		return special.find();		
+
+		return special.find();
 	}
-	
-	
+
+	@Keyword()
+	def cartButtonCheckIfArticlesAdded(String text) {
+		Boolean added = true;
+		if(text.equals('0 item(s) - $0.00')) {
+			return added = false;
+		} 
+		return added;
+	}
 }

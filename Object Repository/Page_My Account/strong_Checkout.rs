@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>strong_Checkout</name>
+   <tag></tag>
+   <elementGuidId>9856c5b4-f9b1-4582-923c-1082e71e3f16</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a:nth-of-type(2) > strong</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cart']/ul/li[2]/div/p/a[2]/strong</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>strong</value>
+      <webElementGuid>30003f7f-3b59-466b-97d8-7ba8566878ca</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Checkout</value>
+      <webElementGuid>a5594baa-fef6-407a-ab93-7ee92667f28b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart&quot;)/ul[@class=&quot;dropdown-menu pull-right&quot;]/li[2]/div[1]/p[@class=&quot;text-right&quot;]/a[2]/strong[1]</value>
+      <webElementGuid>a6f58888-f1e1-415c-88a2-427e6f530f0c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cart']/ul/li[2]/div/p/a[2]/strong</value>
+      <webElementGuid>79ebb52b-ea51-4c6d-bf87-6ff15977cdcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/strong</value>
+      <webElementGuid>c3c345aa-61f5-478b-aa11-81863a5f6592</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//strong[(text() = ' Checkout' or . = ' Checkout')]</value>
+      <webElementGuid>0020c02a-22de-48cc-b68e-67537d179e2d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

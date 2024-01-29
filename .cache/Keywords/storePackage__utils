@@ -1,16 +1,18 @@
 {
-  "keywordFileContentHash": "2AF1BC600D8E21C888502990D2FAC850",
+  "keywordFileContentHash": "5F0CDC99DD10EEACA07C7B5AE8D50C9B",
   "keywordClasses": [
     {
       "name": "storePackage.utils",
       "keywordMethods": [
         {
           "name": "clickMyAccountIcon",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "clickAddToCartButton",
-          "parameters": []
+          "parameters": [],
+          "javadoc": ""
         },
         {
           "name": "emergentWindowForResults",
@@ -28,7 +30,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "registerUserBasicSteps",
@@ -111,7 +114,8 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
         },
         {
           "name": "emailAddressContainsSpecialCharacters",
@@ -129,10 +133,30 @@
                 "errorOnParsing": false
               }
             }
-          ]
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "cartButtonCheckIfArticlesAdded",
+          "parameters": [
+            {
+              "name": "text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
         }
       ]
     }
   ],
-  "javadocParsed": false
+  "javadocParsed": true
 }
