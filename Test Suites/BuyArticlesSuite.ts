@@ -12,13 +12,13 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>b0c01db5-cbb8-4274-9bba-f0208df5ce50</testSuiteGuid>
    <testCaseLink>
-      <guid>a6ddefea-6c8a-4c42-90b0-22bbdc2857bb</guid>
+      <guid>590c3842-3f00-4f16-b4a8-9c065eaaac3b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/addArticleToCart</testCaseId>
+      <testCaseId>Test Cases/searchArticle</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>5b993dfc-c070-4142-a5d4-d6db95269842</id>
+         <id>6d68cd20-285a-4cf2-9bf4-85a362fb0dc4</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,17 +27,17 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>5b993dfc-c070-4142-a5d4-d6db95269842</testDataLinkId>
+         <testDataLinkId>6d68cd20-285a-4cf2-9bf4-85a362fb0dc4</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>article</value>
-         <variableId>a9dbe66e-c4a9-439d-9fb8-632ca76d9732</variableId>
+         <variableId>cc034ae0-50e3-42da-816e-502d0c89a073</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>97c3836b-46c4-44ee-ad19-c92d4cfcf1e3</guid>
+      <guid>490c7a67-cfe8-4ffe-ade9-aa92f5c1e078</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/completeCheckout</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

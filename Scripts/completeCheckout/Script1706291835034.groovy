@@ -14,22 +14,14 @@ import com.kms.katalon.core.testobject.TestObject as TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-
-import cucumber.api.event.TestRunFinished
+import cucumber.api.event.TestRunFinished as TestRunFinished
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.maximizeWindow();
 
-String cartButtonText = WebUI.getText(findTestObject('Page_My Account/button_3 item(s) - 2,181.00'));
+WebUI.maximizeWindow()
 
-if(CustomKeywords.'storePackage.utils.cartButtonCheckIfArticlesAdded'(cartButtonText)) {
-	CustomKeywords.'storePackage.utils.emergentWindowForResults'('Se han agregado elementos al carrito. Resultado esperado');
-	WebUI.click(findTestObject('Page_My Account/button_3 item(s) - 2,181.00'));
-} else {
-	CustomKeywords.'storePackage.utils.emergentWindowForResults'('No hay elementos agregados en el carrito. Error al agregar artículos. Resultado no esperado');
-	TestRunFinished;
-}
+WebUI.click(findTestObject('Page_My Account/button_Cart'))
 
 WebUI.click(findTestObject('Object Repository/Page_My Account/strong_Checkout'))
 

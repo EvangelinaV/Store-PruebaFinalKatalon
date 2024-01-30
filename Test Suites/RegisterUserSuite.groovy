@@ -52,7 +52,7 @@ def tearDown() {
 def setupTestCase() {
 	WebUI.openBrowser('');
 	WebUI.navigateToUrl(GlobalVariable.BaseURL);
-	CustomKeywords.'storePackage.utils.clickMyAccountIcon'();
+	WebUI.click(findTestObject('Object Repository/Page_Your Store/a_My Account'));
 }
 
 /**

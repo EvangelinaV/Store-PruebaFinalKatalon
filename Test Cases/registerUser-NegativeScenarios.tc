@@ -1,86 +1,99 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>registerUser-ExistingEmailAdress</name>
+   <name>registerUser-NegativeScenarios</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d2162834-0787-43b8-a19e-6f6e2425c180</testCaseGuid>
+   <testCaseGuid>f2f379b8-8c00-4c18-80b8-1131973f0db4</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>b1e68709-58c5-4fbb-899f-1fd62707f02f</variableId>
+      <variableId>051e9d03-cbb1-4812-bf31-7d9c6b383f2e</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>bbdb0030-9496-47a0-a685-594a1b10dbaf</variableId>
+      <variableId>42a5916c-0830-4d05-8eda-cd62615afd58</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>9134819d-aaa0-423b-bc5f-71dd7bfdb8d9</variableId>
+      <variableId>b063fc84-6674-402f-96d9-5a1c1bdaeae2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>99a7b0bc-4b64-4d32-9e7e-e165118beab9</variableId>
+      <variableId>352708fc-30d7-4244-845c-b1a79c6d6246</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>11649ecb-ea68-4043-be17-30476ebaa67b</variableId>
+      <variableId>5f279409-ffa9-449d-9a9f-1ebfe01493f2</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>01816f8d-11df-4992-b541-9ef96d239447</variableId>
+      <variableId>884a5a99-011f-469a-919c-2b4c09469f76</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>430ec4af-ba85-4b92-b607-ea9e78345ee6</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>b1e68709-58c5-4fbb-899f-1fd62707f02f</id>
+      <id>051e9d03-cbb1-4812-bf31-7d9c6b383f2e</id>
       <masked>false</masked>
       <name>name</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>bbdb0030-9496-47a0-a685-594a1b10dbaf</id>
+      <id>42a5916c-0830-4d05-8eda-cd62615afd58</id>
       <masked>false</masked>
       <name>lastName</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>9134819d-aaa0-423b-bc5f-71dd7bfdb8d9</id>
+      <id>b063fc84-6674-402f-96d9-5a1c1bdaeae2</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>99a7b0bc-4b64-4d32-9e7e-e165118beab9</id>
+      <id>352708fc-30d7-4244-845c-b1a79c6d6246</id>
       <masked>false</masked>
-      <name>telephoneNumber</name>
+      <name>telephone</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>11649ecb-ea68-4043-be17-30476ebaa67b</id>
-      <masked>true</masked>
+      <id>5f279409-ffa9-449d-9a9f-1ebfe01493f2</id>
+      <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>01816f8d-11df-4992-b541-9ef96d239447</id>
-      <masked>true</masked>
-      <name>confirmPassword</name>
+      <id>884a5a99-011f-469a-919c-2b4c09469f76</id>
+      <masked>false</masked>
+      <name>repeatPassword</name>
+   </variable>
+   <variable>
+      <defaultValue>0</defaultValue>
+      <description></description>
+      <id>430ec4af-ba85-4b92-b607-ea9e78345ee6</id>
+      <masked>false</masked>
+      <name>assertion</name>
    </variable>
 </TestCaseEntity>

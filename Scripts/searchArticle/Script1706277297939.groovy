@@ -17,12 +17,15 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Your Store/input_search'), 0);
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_Your Store/input_search'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Your Store/input_search'));
+WebUI.verifyElementVisible(findTestObject('Object Repository/Page_Your Store/input_search'))
 
-WebUI.setText(findTestObject('Object Repository/Page_Your Store/input_search'), article);
+WebUI.setText(findTestObject('Object Repository/Page_Your Store/input_search'), article)
 
-WebUI.click(findTestObject('Object Repository/Page_Your Store/button_btn btn-default btn-lg'));
+WebUI.click(findTestObject('Object Repository/Page_Your Store/button_btn btn-default btn-lg'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Page_Search - iPhone/a_iPhone'), article);
+WebUI.verifyElementText(findTestObject('Object Repository/Page_Search - Article/a_Article'), article)
+
+WebUI.click(findTestObject('Object Repository/Page_Your Store/i_fa fa-shopping-cart'))
+

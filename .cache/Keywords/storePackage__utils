@@ -1,19 +1,9 @@
 {
-  "keywordFileContentHash": "5F0CDC99DD10EEACA07C7B5AE8D50C9B",
+  "keywordFileContentHash": "61E8331D828E64E3D227C64392F51518",
   "keywordClasses": [
     {
       "name": "storePackage.utils",
       "keywordMethods": [
-        {
-          "name": "clickMyAccountIcon",
-          "parameters": [],
-          "javadoc": ""
-        },
-        {
-          "name": "clickAddToCartButton",
-          "parameters": [],
-          "javadoc": ""
-        },
         {
           "name": "emergentWindowForResults",
           "parameters": [
@@ -122,25 +112,6 @@
           "parameters": [
             {
               "name": "email",
-              "initialExpression": "",
-              "type": {
-                "fullClassName": "java.lang.String",
-                "unresolvedClassName": "String",
-                "isArray": false,
-                "isGnericsPlaceHolder": false,
-                "hasImmutableClassName": false,
-                "genericsTypes": [],
-                "errorOnParsing": false
-              }
-            }
-          ],
-          "javadoc": ""
-        },
-        {
-          "name": "cartButtonCheckIfArticlesAdded",
-          "parameters": [
-            {
-              "name": "text",
               "initialExpression": "",
               "type": {
                 "fullClassName": "java.lang.String",

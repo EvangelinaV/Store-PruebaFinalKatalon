@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_iPhone</name>
+   <name>a_Article</name>
    <tag></tag>
    <elementGuidId>497d6685-59f8-46cc-aa90-48020076388a</elementGuidId>
    <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h4 > a</value>
+      </entry>
       <entry>
          <key>XPATH</key>
          <value>//div[@id='content']/div[3]/div/div/div[2]/div/h4/a</value>
@@ -13,12 +17,8 @@
          <key>BASIC</key>
          <value>id(&quot;content&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12&quot;]/div[@class=&quot;product-thumb&quot;]/div[2]/div[@class=&quot;caption&quot;]/h4[1]/a[1]</value>
       </entry>
-      <entry>
-         <key>CSS</key>
-         <value>h4 > a</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>1cb7cc41-490a-4144-b75b-32813f2e177f</webElementGuid>
+      <webElementGuid>5731192b-ff94-42da-ae2a-78bf2cd3ec24</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +34,7 @@
       <name>href</name>
       <type>Main</type>
       <value>http://opencart.abstracta.us:80/index.php?route=product/product&amp;product_id=40&amp;search=iPhone</value>
-      <webElementGuid>3fda6895-ebff-4e3f-9cb1-a2cbf8f2350a</webElementGuid>
+      <webElementGuid>0fe84cdb-af23-4213-b70c-380e96cc932c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -42,7 +42,7 @@
       <name>text</name>
       <type>Main</type>
       <value>iPhone</value>
-      <webElementGuid>3577a9ff-5132-4aef-9c35-d0fb0e182c15</webElementGuid>
+      <webElementGuid>51d2a6ca-b4f9-41d5-89d4-cbddf403e044</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,46 +50,14 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;content&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;product-layout product-grid col-lg-3 col-md-3 col-sm-6 col-xs-12&quot;]/div[@class=&quot;product-thumb&quot;]/div[2]/div[@class=&quot;caption&quot;]/h4[1]/a[1]</value>
-      <webElementGuid>5d851bb6-ff69-4af0-a7ce-8d754d2dd3a5</webElementGuid>
+      <webElementGuid>f5179264-c6ef-41ea-9233-06a904eece21</webElementGuid>
    </webElementProperties>
-   <webElementXpaths>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='content']/div[3]/div/div/div[2]/div/h4/a</value>
-      <webElementGuid>d1b5b2a2-083c-42ee-938f-8f927150fe11</webElementGuid>
-   </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'iPhone')]</value>
-      <webElementGuid>b654bb5b-1eb4-47b8-b0f0-635c2eb55e82</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[@href='http://opencart.abstracta.us:80/index.php?route=product/product&amp;product_id=40&amp;search=iPhone'])[2]</value>
-      <webElementGuid>90b1d5d6-6523-4747-9c27-114a1e147e40</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//h4/a</value>
-      <webElementGuid>3fb312c4-e9f5-4eea-a6ba-1ec741768eb9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = 'http://opencart.abstracta.us:80/index.php?route=product/product&amp;product_id=40&amp;search=iPhone' and (text() = 'iPhone' or . = 'iPhone')]</value>
-      <webElementGuid>3f3519a8-c352-4259-aa12-c67d0cf6b0e1</webElementGuid>
+      <value>//a[contains(text(),{'$article'})]</value>
+      <webElementGuid>4293a19e-3fa9-41eb-9fdd-dd9234ef25f6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

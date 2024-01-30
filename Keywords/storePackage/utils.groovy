@@ -31,17 +31,6 @@ public class utils {
 
 
 	@Keyword()
-	def clickMyAccountIcon() {
-		WebUI.click(findTestObject('Object Repository/Page_Your Store/a_My Account'));
-	}
-
-
-	@Keyword()
-	def clickAddToCartButton() {
-		WebUI.click(findTestObject('Object Repository/Page_Your Store/i_fa fa-shopping-cart'));
-	}
-
-	@Keyword()
 	def emergentWindowForResults(String result) {
 		JOptionPane.showMessageDialog(null, result);
 	}
@@ -81,12 +70,4 @@ public class utils {
 		return special.find();
 	}
 
-	@Keyword()
-	def cartButtonCheckIfArticlesAdded(String text) {
-		Boolean added = true;
-		if(text.equals('0 item(s) - $0.00')) {
-			return added = false;
-		} 
-		return added;
-	}
 }
