@@ -10,11 +10,11 @@
    <dataSourceUrl></dataSourceUrl>
    <driver>InternalData</driver>
    <data>test1 null testtest123%40test1.com 156151561 123456 123456 1</data>
-   <data>test2 test2 null 845185465 789789 789789 1</data>
-   <data>test3 test3 333test333%40test.com 5558125482 null 852852 1</data>
-   <data>test4 test4 test%2Bkatalon%40test.com 22225555 789789456 789789456 2</data>
-   <data>test5 test5 wrong.com 456456456 456456456 456456456 3</data>
-   <data>test6 test6 wrong%40 123123123 123123 123123 3</data>
+   <data>test2 test2 null 845185465 789789 789789 2</data>
+   <data>test3 test3 333test333%40test.com 5558125482 null 852852 3</data>
+   <data>test4 test4 test%2Bkatalon%40test.com 22225555 789789456 789789456 4</data>
+   <data>test5 test5 wrong.com 456456456 456456456 456456456 5</data>
+   <data>test6 test6 wrong%40 123123123 123123 123123 6</data>
    <internalDataColumns>
       <columnIndex>0</columnIndex>
       <name>name</name>

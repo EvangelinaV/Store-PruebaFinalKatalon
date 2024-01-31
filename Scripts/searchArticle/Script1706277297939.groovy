@@ -27,5 +27,5 @@ WebUI.click(findTestObject('Object Repository/Page_Your Store/button_btn btn-def
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Search - Article/a_Article'), article)
 
-WebUI.click(findTestObject('Object Repository/Page_Your Store/i_fa fa-shopping-cart'))
+
 

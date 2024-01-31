@@ -18,8 +18,11 @@ import cucumber.api.event.TestRunFinished as TestRunFinished
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.maximizeWindow()
+
+WebUI.callTestCase(findTestCase('searchArticle'), [('article') : article], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Your Store/i_fa fa-shopping-cart'))
 
 WebUI.click(findTestObject('Page_My Account/button_Cart'))
 
